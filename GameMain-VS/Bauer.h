@@ -428,7 +428,7 @@ public:
 			for(i=0; i<=dx; i++)
 			{
                 x = x0+i;
-                y = int(round(y0+(i*dy*1.0)/dx));
+                y = int(round(y0+((i*dy)*1.0)/dx));
 				Draw(x, y, zeichen);
             }
 		}
